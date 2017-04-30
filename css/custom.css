@@ -1,0 +1,299 @@
+body{
+	background 	: white;
+}
+
+a {
+    color: black;
+
+}
+
+a:hover	{
+	color: white;
+}
+
+.nav{
+    list-style:       none;
+    display:          inline-block;
+    margin-left:      135px;
+}
+
+
+.nav li{
+  display:            inline-block;
+  color:              white;
+  text-decoration:    none;
+}
+
+.nav a{
+    display:          inline-block;
+    color:            black;
+    text-align:       center;
+    text-decoration:  none;
+    font-size:        8pt;
+    font-family:      sans-serif;
+/*    background:     white;
+*/  font-style:       bold;
+    font-weight:      600;
+    border:           2px solid white;
+    border-spacing:   0px;
+    margin-right:     -7px;
+    font-family:      'Roboto', sans-serif;
+    letter-spacing:   2px;
+
+}
+
+
+/* background colors for homepage*/
+.container1 {
+
+	/*blue color*/
+	background: 		#BED4F1;
+	border-style: 		solid;
+  border-color: 		white;
+  border-width: 		30px;
+	height:				    230px;
+
+}
+
+.container2 {
+
+	/*stone color*/
+	background: 		#DDD8D2;
+	border-style: 		solid;
+    border-color: 		white;
+    border-width: 		30px;
+	height:				230px;
+	margin-top: 		-30px;
+	box-shadow: -5px -3px 5px #b2aeae;
+
+
+}
+
+.container3 {
+
+	/*Coral color*/
+	background: 		#FF5468;
+	border-style: 		solid;
+    border-color: 		white;
+    border-width: 		30px;
+	height:				500px;
+	margin-top: 		-30px;
+	box-shadow: -5px -3px 5px #b2aeae;
+
+}
+
+/*h3 for homepage*/
+
+h3 {
+	text-indent: 		50px;
+	font-size: 			80px;
+	font-family:   'Playfair Display', serif;
+	margin-top:			20px; 
+  color:          #404040;
+
+}
+
+h3:hover {
+  color: white;
+}
+/* link color*/
+
+a {
+    color: black;
+}
+
+/* About me page conatiners*/
+
+.container4 {
+
+	/*blue color*/
+	background: 		#BED4F1;
+	border-style: 		solid;
+    border-color: 		white;
+    border-width: 		30px;
+    padding: 			30px;
+    width:				auto;
+
+}
+
+h2 {
+	text-indent: 		50px;
+	font-size: 			20px;
+	color:				  white;
+	font-family:   'Roboto', sans-serif;
+  letter-spacing: 1px;
+
+
+}
+
+p {
+  margin-top:       20px;
+	padding-left:  		50px;
+	padding-right: 		50px;	
+	font-size: 			  18px;
+	letter-spacing: 	1px;
+ 	font-family:      'Roboto', sans-serif;
+ 	color:				   grey;
+
+}
+
+
+/*circles in About Me page*/
+
+#circle {
+	width: 					300px;
+	height: 				300px;
+	-moz-border-radius: 	150px;
+	-webkit-border-radius: 	150px;
+	border-radius: 			150px;
+	border: 				6px solid white;
+	text-align: 			center;
+
+
+}
+
+#circle span { 
+   height: 					280px; 
+   display: 				inline-block; 
+   zoom: 					1; 
+   *display: 				inline; 
+   vertical-align: 			middle;
+
+ }
+
+#circle h1{ 
+   display: 				inline-block; 
+   zoom: 					1.5; 
+   *display: 				inline; 
+   vertical-align: 			middle;
+   color: 					grey;
+   font-size:				20px;
+   font-family: 'Roboto', sans-serif;
+
+ }
+
+ /*circles in About Me page*/
+
+#circle2 {
+	width: 					100px;
+	height: 				100px;
+	-moz-border-radius: 	50px;
+	-webkit-border-radius: 	50px;
+	border-radius: 			50px;
+	border: 				5px solid white;
+	text-align: 			center;
+
+}
+
+#circle2 span { 
+   height: 					80px; 
+   display: 				inline-block; 
+   zoom: 					1; 
+   *display: 				inline; 
+   vertical-align: 			middle;
+
+ }
+
+#circle2 h1{ 
+   display: 				inline-block; 
+   zoom: 					0; 
+   *display: 				inline; 
+   vertical-align: 			middle;
+   color: 					grey;
+   font-size:				20px;
+   font-family: 'Roboto', sans-serif;
+
+ }
+
+
+ li {
+ 	font-size: 			 	20px;
+ 	color:					grey;
+ 	font-family: 'Roboto', sans-serif;
+ 	letter-spacing: 		1px;
+
+
+ }
+
+.col-sm-12 h1 {
+   color: 					black;
+   font-size:				22px;
+   padding-left: 			50px;
+
+ }
+
+ hr {
+ 	margin-top: 50px;
+ 	margin-bottom: 50px;
+
+ }
+
+
+
+/*  Work Page Container */
+
+.container5 {
+
+	/*blue color*/
+	background: 		#DDD8D2;
+	border-style: 		solid;
+    border-color: 		white;
+    border-width: 		30px;
+    padding: 			30px;
+    width:				auto;
+
+}
+
+/*Refernces page*/
+
+.container6 {
+
+	/*blue color*/
+	background: 		#FF5468;
+	border-style: 		solid;
+    border-color: 		white;
+    border-width: 		30px;
+    padding: 			30px;
+    width:				auto;
+
+}
+
+ /*Image in a circle*/
+
+ .img-circle {
+ 	display: block;
+ 	width: 200px;
+ 	height: 200px;
+    border-radius: 50%;
+    filter: grayscale(100%);  
+    text-align:center;
+}
+
+
+/* alert*/
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+
+
+
+
