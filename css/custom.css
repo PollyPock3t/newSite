@@ -14,7 +14,7 @@ a:hover	{
 .nav{
     list-style:       none;
     display:          inline-block;
-    margin-left:      70px;
+    margin-left:      50px;
 }
 
 
@@ -89,6 +89,15 @@ h3 {
 	font-size: 			80px;
 	font-family:   'Playfair Display', serif;
 	margin-top:			20px; 
+  color:          #404040;
+
+}
+
+.col-sm-12 h3 {
+  text-indent:    50px;
+  font-size:      70px;
+  font-family:   'Playfair Display', serif;
+  margin-top:     20px; 
   color:          #404040;
 
 }
@@ -188,6 +197,8 @@ p {
 
  }
 
+
+
 #circle h1{ 
    display: 				inline-block; 
    zoom: 					  1.5; 
@@ -211,13 +222,33 @@ p {
 
 }
 
+.col-xs-4 #circle2 {
+  width:                 100px;
+  height:                100px;
+  -moz-border-radius:     50px;
+  -webkit-border-radius:  50px;
+  border-radius:          50px;
+  border:                5px solid white;
+  text-align:            center;
+
+}
+
 #circle2 span { 
    height: 					80px; 
-   display: 				inline-block; 
-   zoom: 					  1; 
+/*   display: 				inline-block; 
+*/   zoom: 					  1; 
    *display: 				inline; 
    vertical-align: 	middle;
    margin-top:      50px;
+}
+
+.col-sm-4 #circle2 span { 
+   height:          80px; 
+   display:         inline-block; 
+   zoom:            1; 
+   *display:        inline; 
+   vertical-align:  middle;
+   margin-top:      0px;
 
  }
 
@@ -228,6 +259,17 @@ p {
    vertical-align: 	middle;
    color: 					#535353;
    font-size:				20px;
+   font-family:     'Roboto', sans-serif;
+
+ }
+
+ .col-xs-4 #circle2 h1{ 
+   display:         inline-block; 
+   zoom:            0; 
+   *display:        inline; 
+   vertical-align:  middle;
+   color:           #535353;
+   font-size:       16px;
    font-family:     'Roboto', sans-serif;
 
  }
@@ -338,6 +380,18 @@ p {
 .container6 {
 
   /*red color*/
+  background:         #FF5468;
+  border-style:       solid;
+    border-color:     white;
+    border-width:     30px;
+    padding:          30px;
+    width:            auto;
+
+}
+
+.container7 {
+
+  /*red color*/
   background:         grey;
   border-style:       solid;
     border-color:     white;
@@ -346,6 +400,7 @@ p {
     width:            auto;
 
 }
+
 
 
 
