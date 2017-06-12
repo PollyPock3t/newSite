@@ -18,6 +18,8 @@ h5:hover {
 }
 
 
+
+
 .nav{
     list-style:       none;
     display:          inline-block;
@@ -49,6 +51,7 @@ h5:hover {
     letter-spacing:   2px;
 
 }
+
 
 
 /* background colors for homepage*/
@@ -429,6 +432,7 @@ p {
     border-width:     30px;
     padding:          30px;
     width:            auto;
+    height:           725px;
 
 }
 
@@ -443,11 +447,67 @@ p {
   text-align:     left;
   letter-spacing: 1px;
   text-align:     center; 
+  padding-top:    30px;
 
 }
 
 #footer a:hover {
-  color:                #7D82A5;
-  text-decoration:      none;
+  color:           #7D82A5;
+  text-decoration: none;
 }
 
+/*video*/
+
+#video-background {
+/*  making the video fullscreen  */
+  position:        fixed;
+  right:           0; 
+  bottom:          0;
+  min-width:       100%; 
+  min-height:      100%;
+  width:           auto; 
+  height:          auto;
+  z-index:         -100;
+}
+#link a:hover {
+  color:           #7D82A5;
+  text-decoration: none;
+}
+
+.btn {
+  position:         absolute;
+  right:            5px;
+  text-decoration: none;
+}
+button {
+    display:          inline-block;
+    color:            black;
+    text-align:       center;
+    text-decoration:  none;
+    font-size:        10pt;
+    font-family:      sans-serif;
+    border:           2px solid white;
+    border-spacing:   0px;
+    font-family:      'Roboto', sans-serif;
+    letter-spacing:   2px;
+    padding:          10px;
+    margin:           5px;
+
+}
+
+.btn a:hover {
+  color:              #7D82A5;
+  text-decoration:    none;
+}
+
+/* visited link */
+.btn a:visited {
+    color:           white;
+    text-decoration: none;
+}
+
+/* selected link */
+.btn a:active {
+    color:            white;
+    text-decoration:  none;
+}
