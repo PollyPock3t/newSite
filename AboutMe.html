@@ -13,12 +13,36 @@
 	<title> Paulline Mallea</title>
 
 
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/bootstrap-theme.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/custom.css">
+ <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+
+  <script src="js/jquery.2.2.4.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+<!--   <script src="js/custom.js"></script>
+ -->
+
   <link href="https://fonts.googleapis.com/css?family=Oswald|Playfair+Display|Roboto" rel="stylesheet">
+  <script src="js/progressbar.js"></script>
+
+  <script src="js/main.js"></script>
+  <script src="js/jquery.mobile.custom.min.js"></script>
+<!-- query -->
+
+<!-- Media query for narrow browser width -->
+<link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+
+<!-- Media query for medium browser width -->
+<link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="tablet.css">
+
+<!-- Media query for full browser width -->
+<link rel="stylesheet" media="only screen and (min-width: 961px)" href="desktop.css">
+
+<!-- Prevent smartphones from scaling pages down -->
+<meta name="viewport" content="initial-scale=1">
 
 
 </head>
@@ -31,9 +55,7 @@
 <!-- Navigation Bar -->
 <div class="row">
 
-  <div class="col-xs-0 col-sm-0 col-md-5 col-lg-7">
-  </div>
-  <div class="col-xs-12 col-sm-12 col-md-7 col-lg-5"> 
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
     <nav>
       <ul class="nav">
         <li><a href="index.html">Home</a></li>
@@ -55,23 +77,26 @@
 
       <h3>ABOUT ME</h3>
 
-      <h2 style="margin-top: 40px; margin-bottom: 20px;">BIO</h2>
+      <h2>BIO</h2>
       <p>My experience ranges from designing graphics for print and web, to managing content for websites and social media accounts. This past year I earned a certificate in Full Stack Web Developement from City Tech.</p>
 
+     
+      </div>
+</div>
+
       <hr>
-    </div>
+   
   
 
 <div class="row">
   <div class="col-sm-12 col-md-12 col-lg-12">
-      <h2 style="margin-bottom: 0px;">DIGITAL MEDIA SKILLS</h2>
+      <h2>DIGITAL MEDIA SKILLS</h2>
   </div>
-</div>
 
 <!-- Graphic design -->
-<div style="margin-left: 40px;" class="ccol-sm-5 col-md-5 col-lg-5">
+<div id="bar" class="col-sm-6 col-md-6 col-lg-6">
 
-  <h4>GRAPHIC DESIGN</h4>
+  <h6>GRAPHIC DESIGN</h6>
 
   
   <p>Adobe Photoshop</p>
@@ -93,9 +118,9 @@
 </div>
 
 <!-- Website Design -->
-<div style="margin-left: 40px" class="col-sm-5 col-md-5 col-lg-5">
+<div id="bar" class="col-sm-6 col-md-6 col-lg-6">
 
-<h4>WEBSITE DEVELOPMENT</h4>
+<h6>WEBSITE DEVELOPMENT</h6>
 
   <p>HTML &amp; CSS</p>
   <div class="progress progress-striped active">
@@ -124,25 +149,23 @@
 
 </div>
 
-
+</div>
 
 <!-- Social Media section -->
 
-<div class="row">
-
-<div class="col-sm-12 col-md-12 col-lg-12">
 <hr>
 
-<div class="col-sm-6 col-md-6 col-lg-6">
+<div class="row">
 
+<div id="bar" class="col-sm-6 col-md-6 col-lg-6">
 
-<h4 style="margin-left: 40px;">SOCIAL MEDIA MANAGEMENT</h4>
+<h6>SOCIAL MEDIA MANAGEMENT</h6>
 
 <p>Champion of social media tools and technologies, with three years experience managing platforms. Keep up-to-date with constantly evolving technologies in online social networking. </p>
 
 <p>Partial List of Tools:</p>
 
-  <ul style="margin-left: 40px;">
+  <ul>
   <li>Sprout</li>
   <li>Hootsuite</li>
   <li>Facebook</li>
@@ -158,13 +181,13 @@
   </ul>
 </div>
 
-<div style="margin-left: 40px;" class="col-sm-6 col-md-6 col-lg-6">
+<div id="bar" class="col-sm-6 col-md-6 col-lg-6">
 
-<h4>AND...</h4>
+<h6>AND...</h6>
 
 
-  <p style="margin-left: -40px;">I have experience in:</p>
-  <ul style="margin-left: 0px;">
+  <p>I have experience in:</p>
+  <ul>
 
   <li>Project Management</li>
   <li>Web Production Management</li>
@@ -174,9 +197,9 @@
   <li>E-commerce</li>
   </ul>
 
-  <p style="margin-left: -40px;"">Partial List of Tools:</p>
+  <p>Partial List of Tools:</p>
 
-  <ul style="margin-left: 0px;">
+  <ul>
   <li>MailChimp</li>
   <li>Constant Contact</li>
   <li>Basecamp</li>
@@ -189,49 +212,46 @@
 </div>
 </div>
 
-</div>
+<!-- Education section  -->
 
 <hr>
-  <div class="row">
-  <h2>EDUCATION</h2>
+  <div id="bar" class="row">
+  <h4>EDUCATION</h4>
 
-    <div style="margin-left: 20px;" class="col-sm-12 col-md-12 col-lg-12">
+    <div class="col-sm-12 col-md-12 col-lg-12">
 
-    <h1> New York City College of Technology</h1>
+    <h6> New York City College of Technology</h6>
 
     <p> Full Stack Web Developement Certificate, New York, NY, 2016</p>
 
 
-	  <h1>Massachusetts College of Art</h1>
+	  <h6>Massachusetts College of Art</h6>
 	  <p>Industrial Design Coursework, Boston, MA, 2011</p>
 	
-	  <h1>Parsons, The New School For Design </h1>
+	  <h6>Parsons, The New School For Design </h6>
 	  <p>B.B.A. Design and Management, New York, NY, 2008</p>
 	
-	  <h1>Syracuse University</h1>
+	  <h6>Syracuse University</h6>
 	  <p>Communications and Rhetorical Sciences &amp; Political Science Coursework, Syracuse, NY, 2005</p>    
 	</div>
 </div>
 </div>
-</div>
-<div class="row" style="padding: 40px; background-color: grey; margin-bottom: 40px;">
-  <div class="col-sm-4 col-md-4 col-lg-4">
-  
-  </div>
 
-  <div class="col-sm-4 col-md-4 col-lg-4">
-  <h4>PAULLINE ABRIL MALLEA</h4>
-  <p style="text-align: center; margin-left:-30px;" ><a href="mailto:Malleapaulline@gmail.com">Malleapaulline@gmail.com</a><p>
-  </div>
+<!-- End of educcation and blue background -->
 
-  <div class="col-sm-4 col-md-4 col-lg-4">
-  
-  </div>
+<div id="footer" class="row">
 
+  <div class="col-sm-12 col-md-12 col-lg-12">
+
+  <img src="images/Fav.png" style="height: 40px; width: 40px;">
+
+  <p>PAULLINE ABRIL MALLEA</p>
+  <p><a href="mailto:Malleapaulline@gmail.com">Malleapaulline@gmail.com</a></p>
+  </div>
+  </div>
 
 
 </body>
-
 
 
 

@@ -8,15 +8,26 @@ a {
 }
 
 a:hover	{
-	color: white;
+	color:                white;
+  text-decoration:      none;
 }
+
+h5:hover {
+  color:                white;
+  text-decoration:      none;
+}
+
 
 .nav{
     list-style:       none;
     display:          inline-block;
-    margin-left:      50px;
-}
+    right:            50px;
+    position:         absolute;
+    margin:           0px;
+    z-index:          99999;
+    padding:          0px;
 
+}
 
 .nav li{
   display:            inline-block;
@@ -31,9 +42,6 @@ a:hover	{
     text-decoration:  none;
     font-size:        10pt;
     font-family:      sans-serif;
-/*    background:     white;
-*/  font-style:       bold;
-    font-weight:      600;
     border:           2px solid white;
     border-spacing:   0px;
     margin-right:     -7px;
@@ -47,7 +55,7 @@ a:hover	{
 .container1 {
 
 	/*blue color*/
-	background: 		#BED4F1;
+	background: 		  #BED4F1;
 	border-style: 		solid;
   border-color: 		white;
   border-width: 		30px;
@@ -58,49 +66,54 @@ a:hover	{
 .container2 {
 
 	/*stone color*/
-	background: 		#DDD8D2;
-	border-style: 		solid;
+	background: 		    #DDD8D2;
+	border-style: 		  solid;
     border-color: 		white;
     border-width: 		30px;
-	height:				230px;
-	margin-top: 		-30px;
+	height:				      230px;
+	margin-top: 		    -30px;
 	box-shadow: -5px -3px 5px #b2aeae;
 
+
+}
+
+
+.container3 .col-sm-12 {
+
+  /*Purple color*/
+  max-width:          100%;
 
 }
 
 .container3 {
 
-	/*Coral color*/
-	background: 		#FF5468;
-	border-style: 		solid;
+	/*Purple color*/
+  max-width:          100%;
+	background: 		    #7D82A5;
+	border-style: 		  solid;
     border-color: 		white;
     border-width: 		30px;
-	height:				500px;
-	margin-top: 		-30px;
-	box-shadow: -5px -3px 5px #b2aeae;
+	height:				      300px;
+	margin-top: 		   -30px;
+	box-shadow:        -5px -3px 5px #b2aeae;
 
 }
+
+
+
 
 /*h3 for homepage*/
 
 h3 {
-	text-indent: 		50px;
+	text-indent: 		40px;
 	font-size: 			80px;
 	font-family:   'Playfair Display', serif;
-	margin-top:			20px; 
+	margin-top:			40px; 
   color:          #404040;
+  padding-top:    50px;
 
 }
 
-.col-sm-12 h3 {
-  text-indent:    50px;
-  font-size:      70px;
-  font-family:   'Playfair Display', serif;
-  margin-top:     20px; 
-  color:          #404040;
-
-}
 
 h5 {
   text-indent:    50px;
@@ -111,9 +124,7 @@ h5 {
 
 }
 
-h5:hover {
-  color: white;
-}
+
 /* link color*/
 
 a {
@@ -124,27 +135,29 @@ a {
 
 h4 {
   text-indent:    0px;
-  font-size:      30px;
-  font-family:   'Playfair Display', serif;
+  font-size:      20px;
+  font-family:   'Roboto', sans-serif;
   margin-top:     20px; 
-  margin-bottom:  30px;
+  margin-bottom:  0px;
   color:          #404040;
   text-align:     left;
   letter-spacing: 1px;
 
 }
 
+
 .container4 {
 
 	/*blue color*/
-	background: 		#BED4F1;
-	border-style: 		solid;
+	background: 		    #BED4F1;
+	border-style: 		  solid;
     border-color: 		white;
     border-width: 		30px;
-    padding: 			30px;
-    width:				auto;
+    padding: 			    30px;
+    width:				    auto;
 
 }
+
 
 h2 {
 	text-indent: 		50px;
@@ -153,10 +166,21 @@ h2 {
 	font-family:   'Roboto', sans-serif;
   letter-spacing: 1px;
   margin-top:     20px; 
-  margin-bottom:  30px;
-
+  margin-bottom:  20px;
 
 }
+
+h6 {
+  text-indent:    0px;
+  font-size:      20px;
+  color:          #404040;
+  font-family:   'Roboto', sans-serif;
+  letter-spacing: 1px;
+  margin-top:     10px; 
+  margin-bottom:  20px;
+
+}
+
 
 p {
   margin-top:       20px;
@@ -170,11 +194,29 @@ p {
 }
 
 
+#bar p {
+  margin-top:       20px;
+  padding-left:     0px;
+  padding-right:    50px; 
+  font-size:        18px;
+  letter-spacing:   1px;
+  font-family:      'Roboto', sans-serif;
+  color:            #666666;
+
+}
 
 
 /*circles in About Me page*/
 
 /*1st version*/
+
+#bar {
+  padding-left:         65px;
+}
+
+#bar h6 {
+  font-size:            30px;
+}
 
 #circle {
 	width: 					      300px;
@@ -191,15 +233,15 @@ p {
 #circle span { 
    height: 					280px; 
    display: 				inline-block; 
-   zoom: 					  1; 
-   *display: 				inline; 
+  /* zoom: 					  1; 
+   *display: 				inline; */
    vertical-align: 	middle;
 
  }
 
 
 
-#circle h1{ 
+#circle h1 { 
    display: 				inline-block; 
    zoom: 					  1.5; 
    *display: 				inline; 
@@ -233,12 +275,13 @@ p {
 
 }
 
+
 #circle2 span { 
    height: 					80px; 
 /*   display: 				inline-block; 
 */   zoom: 					  1; 
-   *display: 				inline; 
-   vertical-align: 	middle;
+/*   *display: 				inline; 
+   vertical-align: 	middle;*/
    margin-top:      50px;
 }
 
@@ -252,27 +295,31 @@ p {
 
  }
 
-#circle2 h1{ 
+#circle2 h1 { 
    display: 				inline-block; 
    zoom: 					  0; 
-   *display: 				inline; 
-   vertical-align: 	middle;
+/*   *display: 				inline;
+*/ vertical-align: 	middle;
    color: 					#535353;
    font-size:				20px;
    font-family:     'Roboto', sans-serif;
 
  }
 
- .col-xs-4 #circle2 h1{ 
+ .col-xs-4 #circle2 h1 { 
    display:         inline-block; 
    zoom:            0; 
-   *display:        inline; 
+   */*display:        inline; */
    vertical-align:  middle;
    color:           #535353;
    font-size:       16px;
    font-family:     'Roboto', sans-serif;
 
- }
+}
+
+#padding {
+  margin-left:      20px;
+}
 
 
  li {
@@ -303,7 +350,7 @@ p {
 
  }
 
- /* Progress bar*/
+ /* Progress bar
 
 
 .progress.active .progress-bar {
@@ -325,19 +372,6 @@ p {
 
 }
 
-/*Refernces page*/
-
-.container6 {
-
-	/*red color*/
-	background: 		#FF5468;
-	border-style: 		solid;
-    border-color: 		white;
-    border-width: 		30px;
-    padding: 			30px;
-    width:				auto;
-
-}
 
  /*Image in a circle*/
 
@@ -379,8 +413,8 @@ p {
 
 .container6 {
 
-  /*red color*/
-  background:         #FF5468;
+  /*purple color*/
+  background:         #7D82A5;
   border-style:       solid;
     border-color:     white;
     border-width:     30px;
@@ -390,9 +424,6 @@ p {
 }
 
 .container7 {
-
-  /*red color*/
-  background:         grey;
   border-style:       solid;
     border-color:     white;
     border-width:     30px;
@@ -402,6 +433,21 @@ p {
 }
 
 
+/*footer*/
 
+#footer {
+  text-indent:    0px;
+  font-size:      10px;
+  font-family:   'Roboto', sans-serif;
+  color:          #404040;
+  text-align:     left;
+  letter-spacing: 1px;
+  text-align:     center; 
 
+}
+
+#footer a:hover {
+  color:                #7D82A5;
+  text-decoration:      none;
+}
 
