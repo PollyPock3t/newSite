@@ -164,12 +164,22 @@ h4 {
 
 h2 {
 	text-indent: 		0px;
-	font-size: 			20px;
+	font-size: 			40px;
 	color:				  #404040;
 	font-family:   'Roboto', sans-serif;
   letter-spacing: 1px;
   margin-top:     20px; 
-  margin-bottom:  20px;
+
+}
+
+.col-xs-12 .col-sm-12 .col-md-12 .col-lg-12 h2 {
+  text-indent:    10px;
+  font-size:      20px;
+  color:        #404040;
+  font-family:      'Roboto', sans-serif;
+    letter-spacing:   1px;
+    margin-top:       10px; 
+    margin-bottom:    20px;
 
 }
 
@@ -325,6 +335,9 @@ p {
   margin-right:     40px;
 }
 
+#paddingB h2 {
+  margin-left:      70px;
+}
 
  li {
  	font-size: 			 	 18px;
@@ -487,9 +500,9 @@ p {
   right:            5px;
   text-decoration: none;
 }
+
 button {
     display:          inline-block;
-    color:            black;
     text-align:       center;
     text-decoration:  none;
     font-size:        10pt;
@@ -500,7 +513,6 @@ button {
     letter-spacing:   2px;
     padding:          10px;
     margin:           5px;
-
 }
 
 .btn a:hover {
@@ -524,4 +536,10 @@ button {
 
     margin-left: -30px;
 
+}
+
+#client {
+  background-color: #404040;
+  color:            white;
+  padding:          10px;
 }
